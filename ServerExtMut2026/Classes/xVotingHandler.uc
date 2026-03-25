@@ -17,7 +17,7 @@
 // with Server Extension. If not, see <https://www.gnu.org/licenses/>.
 
 Class xVotingHandler extends xVotingHandlerBase
-	config(xMapVote);
+	config(xMapVote2026);
 
 struct FGameModeOption
 {

@@ -19,7 +19,7 @@
 Class Ext_T_ZEDHelper extends Info
 	transient
 	DependsOn(Ext_TraitZED_Summon)
-	config(ServerExt);
+	Config(ServerExt2026);
 
 var config array<FZEDTypes> ZedTypes; // Dummy hack, not really config but merely just for being able to set class on defaults.
 

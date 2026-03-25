@@ -17,7 +17,7 @@
 // with Server Extension. If not, see <https://www.gnu.org/licenses/>.
 
 Class xMapVoteHistory extends Object
-	config(xMapVoteHistory);
+	config(xMapVoteHistory2026);
 
 var config array<string> M;
 struct FMapInfoEntry

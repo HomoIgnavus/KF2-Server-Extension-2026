@@ -20,7 +20,7 @@
 Class Ext_PerkBase extends Info
 	NotPlaceable
 	Abstract
-	Config(ServerExt)
+	Config(ServerExt2026)
 	DependsOn(ExtWebAdmin_UI);
 
 var array<FWebAdminConfigInfo> WebConfigs;
@@ -1178,7 +1178,7 @@ simulated function PlayerDied()
 simulated function float ApplyEffect(name Type, float Value, float Progress)
 {
 	local bool bActivePerk;
-	`log("ApplyEffect() type=" @ Type @ ", value=" @ Value @ ", progress=" @ Progress);
+	// `log("ApplyEffect() type=" @ Type @ ", value=" @ Value @ ", progress=" @ Progress);
 
 	bActivePerk = (PerkManager!=None && PerkManager.CurrentPerk==Self);
 	switch (Type)
@@ -1247,7 +1247,7 @@ simulated function float ApplyEffect(name Type, float Value, float Progress)
 		{
 			`log("Ext_PerkBase.ApplyEffect() bActivePerk=" @ bActivePerk @ ", PlayerOwner.Pawn=" @ PlayerOwner.Pawn);
 		}
-		return FMin(Value*Progress,1.55);
+		return Value*Progress;
 	case 'PoisonDmg':
 		Modifiers[15] = 1.f / (1.f+Value*Progress);
 		break;

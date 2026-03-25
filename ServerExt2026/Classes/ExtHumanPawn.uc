@@ -39,7 +39,7 @@ var byte HealingShieldMod,HealingSpeedBoostMod,HealingDamageBoostMod;
 replication
 {
 	if (true)
-		bFeigningDeath,RepRegenHP,BackpackWeaponClass;
+		bFeigningDeath,RepRegenHP,BackpackWeaponClass,ArmorInt,MaxArmorInt;
 	if (bNetOwner)
 		bHasBunnyHop;
 	if (bNetDirty)

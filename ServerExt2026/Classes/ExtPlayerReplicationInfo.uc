@@ -102,6 +102,21 @@ simulated function PostBeginPlay()
 	else LocalOwnerPRI = Self; // Dedicated server can use self PRI.
 }
 
+function UpdateReplicatedPlayerHealth()
+{
+	local ExtHumanPawn OwnerPawn;
+
+	if( KFPlayerOwner != none )
+	{
+		OwnerPawn = ExtHumanPawn(KFPlayerOwner.Pawn);
+		if( OwnerPawn != none && OwnerPawn.Health != PlayerHealth )
+		{
+			PlayerHealth = OwnerPawn.Health;
+			PlayerHealthPercent = FloatToByte( float(OwnerPawn.Health) / float(OwnerPawn.HealthMax) );
+		}
+	}
+}
+
 // Resupply traits:
 simulated final function bool CanUseSupply(Pawn P)
 {

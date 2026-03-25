@@ -18,7 +18,7 @@
 
 Class Ext_TraitBase extends Object
 	abstract
-	config(ServerExt)
+	Config(ServerExt2026)
 	DependsOn(ExtWebAdmin_UI);
 
 var localized string MaxLevelText;

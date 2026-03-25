@@ -18,7 +18,7 @@
 
 // Server extension mutator, by Marco.
 Class ServerExtMut extends KFMutator
-	config(ServerExtMut);
+	Config(ServerExtMut2026);
 
 // Webadmin
 var array<FWebAdminConfigInfo> WebConfigs;

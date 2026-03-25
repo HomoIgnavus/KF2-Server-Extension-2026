@@ -17,7 +17,7 @@
 // with Server Extension. If not, see <https://www.gnu.org/licenses/>.
 
 Class ExtStatList extends Object
-	config(ServerExtStats)
+	config(ServerExtStats2026)
 	abstract;
 
 struct FTopPlayers
