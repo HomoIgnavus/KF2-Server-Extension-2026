@@ -1,0 +1,16 @@
+[h1]Description[/h1]
+This is a slightly modified version of GenZmeY's [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2085786712&searchtext=server+ext]Server Extension[/url], with the changes below:
+
+- [u]Spectate[/u] button moved further away from [u]skip trader[/u] to prevent accidental suicide
+- Map rating pop-up disabled to prevent occassional stucks
+- Armor size can exceed 255
+- Magazine size can exceed 255
+- [spoiler]New bugs[/spoiler]
+
+[h1]Usage[/h1]
+Start the game/server with Mutator=ServerExtMut2026.ServerExtMut.
+The rest is the same as the original [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2085786712&searchtext=server+ext]Server Extension[/url]
+If you have GenZmeY's Server Extension installed you need to remove it before downloading this one.
+
+[h1]Known Issues[\h1]
+- Armor in stats menu can only display up to +155, but this doesn't affect the actual max armor value

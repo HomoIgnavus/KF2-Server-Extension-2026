@@ -1,0 +1,45 @@
+// This file is part of Server Extension.
+// Server Extension - a mutator for Killing Floor 2.
+//
+// Copyright (C) 2016-2024 The Server Extension authors and contributors
+//
+// Server Extension is free software: you can redistribute it
+// and/or modify it under the terms of the GNU General Public License
+// as published by the Free Software Foundation,
+// either version 3 of the License, or (at your option) any later version.
+//
+// Server Extension is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+// See the GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License along
+// with Server Extension. If not, see <https://www.gnu.org/licenses/>.
+
+Class KFGUI_ComboSelector extends KFGUI_Clickable;
+
+var KFGUI_ComboBox Combo;
+var int CurrentRow,OldRow;
+
+function DrawMenu()
+{
+	Owner.CurrentStyle.RenderComboList(Self);
+}
+
+function HandleMouseClick(bool bRight)
+{
+	PlayMenuSound(MN_ClickButton);
+	DropInputFocus();
+	if (CurrentRow>=0)
+	{
+		Combo.SelectedIndex = CurrentRow;
+		Combo.OnComboChanged(Combo);
+	}
+}
+
+defaultproperties
+{
+	CurrentRow=-1
+	OldRow=-1
+	bFocusedPostDrawItem=true
+}

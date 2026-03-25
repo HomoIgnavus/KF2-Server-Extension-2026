@@ -1,0 +1,610 @@
+Init: Version: 10897
+Init: Epic Internal: 0
+Init: Compiled (64-bit): Jan 30 2024 19:49:00
+Init: Changelist: 1532151
+Init: Command line: KF-Crazy_Playboy_Edited?game=ConfigurableGameMode.CGM_Survival?Setup=1?Mutator=ServerExtMut2026.ServerExtMut,WaveTimeOut.WaveTimeOut -log -useunpublished
+Init: Base directory: D:\programs\Steam\steamapps\common\killingfloor2\Binaries\Win64\
+[0000.43] Init: Computer: DESKTOP-MBQN7DF
+[0000.43] Init: User: Administrator
+[0000.43] Init: CPU Page size=4096, Processors=16
+[0000.43] Init: High frequency timer resolution =10.000000 MHz
+[0000.43] Init: Memory total: Physical=47.1GB (47GB approx) Pagefile=50.1GB Virtual=131072.0GB
+[0000.48] Log: Steam Client API initialized 1
+[0000.48] Log: Automatically setting Steam query port to 27015 (server port is 7777)
+[0000.48] Log: Automatically setting Steam port to 20560 (server port is 7777)
+[0000.53] Log: Steam Game Server API initialized 1
+[0000.53] DevOnline: appSteamInit: Steam Game Server UID: 0
+[0000.53] DevOnline: [EOS SDK] EOS Initialized
+[0000.55] DevOnline: [EOS SDK] Platform Created
+[0000.55] DevOnline: [EOS SDK] Setting Logging Callback ...
+[0000.55] DevOnline: [EOS SDK] Logging Callback Set
+[0000.55] Init: Presizing for 179220 objects not considered by GC, pre-allocating 0 bytes.
+[0000.55] Init: Object subsystem initialized
+[0002.78] Log: CachePaths() took 2.24 Seconds
+[0002.79] DevDataBase: Connection to "Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2" or "10.1.20.20" failed
+[0002.85] Log: TwD3d1xInfoInit: Acceptable DX11 adapter found
+[0002.85] Log: Unknown GPU : Amd 0x15bf
+
+[0002.85] Log: Adapter : AMD Radeon 780M Graphics
+
+[0002.85] Log: Vendor : Amd
+
+[0002.85] Log: DeviceId : 5567
+
+[0002.85] Log: SubSysId : 364843010
+
+[0002.85] Log: Revision : 208
+
+[0002.85] Log: DedicatedVideoMemory : 411 MiB
+
+[0002.85] Log: DedicatedSystemMemory : 0 MiB
+
+[0002.85] Log: SharedSystemMemory : 24108 MiB
+
+[0002.85] Log: DisplayCount : 1
+
+[0002.85] Log: "\\.\DISPLAY1" : { "x" : 0, "y" : 0, "width" : 2560, "height" : 1440 }
+
+[0002.85] Log: [AppCompat] Machine  detected compatibility level: Composite: 3. CPU: 4. GPU: 3.
+[0002.85] Log: [AppCompat] Previous detected compatibility level: Composite: 3. CPU: 4. GPU: 3.
+[0002.89] Log: Found D3D11 adapter 0: AMD Radeon 780M Graphics
+[0002.89] Log: Adapter has 411MB of dedicated video memory, 0MB of dedicated system memory, and 24108MB of shared system memory
+[0002.91] Log: Found D3D11 adapter 1: Microsoft Basic Render Driver
+[0002.91] Log: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 24108MB of shared system memory
+[0002.91] Log: Shader platform (RHI): PC-D3D-SM5
+[0002.93] Log: [CROSSPLAY] FORCEREWRITE wrong [IpDrv.TcpNetDriver] AllowDownloads
+[0002.95] Log: PhysXLevel : 0
+[0002.95] Log: [FSocketWin::Bind] Binding to 0.0.0.0:9989
+[0003.07] Log: [ThreadAffinity] Number of hardware threads is 16. Setting thread affinity for game and render threads to share L2 cache
+[0014.94] Log: 299510 objects as part of root set at end of initial load.
+[0014.94] Log: 0 out of 0 bytes used by permanent object pool.
+[0014.94] Log: Initializing Engine...
+[0014.95] Log: [FSocketWin::Bind] Binding to 216.239.35.12:123
+[0015.95] Log: [FSocketWin::Bind] Binding to 216.239.35.12:123
+[0016.95] Log: [FSocketWin::Bind] Binding to 216.239.35.12:123
+[0017.95] Log: [FSocketWin::Bind] Binding to 216.239.35.12:123
+[0018.95] Log: [FSocketWin::Bind] Binding to 216.239.35.12:123
+[0019.95] Log: *** Using local time
+[0019.95] Log: *** Updating timed game events
+[0019.95] Log: **** Current Time: 2026 3 24 22 25 41
+[0019.95] Log: **** World start in seconds: 1492444800
+[0019.95] Log: **** Current time in seconds: 1774362341
+[0019.95] Log: **** Intended weekly index: 466
+[0019.95] Log: **** USED Weekly index: 466
+[0019.99] Log: [NVidia GeForceExperience] Compiled against GSA version: 1.0.2.0
+[0019.99] Log: [NVidia GeForceExperience] Running against GSA version: 1.0.2.0
+[0020.07] Log: Checking to see if current resolution is supported ....OK
+[0020.14] Log: Wwise(R) SDK Version 2015.1.8 Build 5618. Copyright (c) 2006-2012 Audiokinetic Inc. / All Rights Reserved.
+[0020.91] Log: AMD driver version: 26.2.2, build version: 25.30.27.02-260217a-198634C-AMD-Software-Adrenalin-Edition
+[0020.91] Log: Detected 1 Crossfire CPUs for rendering
+[0020.94] Log: [ThreadAffinity] Number of hardware threads is 16. Setting thread affinity for game and render threads to share L2 cache
+[0020.94] Log: Initializing Steamworks
+[0020.96] Log: GSteamFriends->GetFriendCount return 35
+[0020.96] Log: Logged in as 'Hŏmō Ignāvus'
+[0020.96] Log: FVoiceInterfaceVivox::CreateInstance(MaxLocalTalkers=1, MaxRemoteTalkers=16, bIsSpeechRecognitionDesired=0)
+[0020.96] Log: FVoiceInterfaceVivox::Init(MaxLocalTalkers=1, MaxRemoteTalkers=16, bIsSpeechRecognitionDesired=0)
+[0020.96] Log: vx_get_default_codecs_mask()=39
+[0020.96] Log: EncryptedAppTicketResponse: bIOFailure = FALSE
+[0020.96] Log: EncryptedAppTicketResponse: pEncryptedAppTicketResponse is NOT NULL
+[0020.96] Log: EncryptedAppTicketResponse: pEncryptedAppTicketResponse->m_eResult = 1
+[0020.96] Log: EncryptedAppTicketResponse k_EResultOK 08021092d3ef9208180420702aa0014f02fdc7de5b0dec3da7ade46b7d21dfed2ac604be164de374baa567ae7409ab890da7ed28b85d22bb023db3abd34b909061a31bab50a2d30eebd5572a25bef6c9c2b87c7a204ca82e5fa38d4a1ad0463bc6e7096cbf051c788b7b3faf73acccc2fa593d5163e2375cc19f6b1ccb8c3cf93c547a8f081db0e8d27bb327485fead113249b2102a92eac8374edf0941a8846e63da8a86364e43379417b58db47e5
+[0020.96] Log: FVoiceInterfaceVivox::vivoxConnect
+[0020.96] Log: [TWAnalytics::requestInventoryItem] Requesting Item Id: 0 TotalNumberExpected: -1
+[0020.99] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0020.99] Warning: Warning, Failed to find object 'Class None.'
+[0020.99] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0020.99] Warning: Warning, Failed to find object 'Class None.'
+[0021.03] Log: LoadMap: KF-Crazy_Playboy_Edited?Name=Player?Team=255?game=ConfigurableGameMode.CGM_Survival?Setup=1?Mutator=ServerExtMut2026.ServerExtMut,WaveTimeOut.WaveTimeOut
+[0021.32] Log: SetGameInfo
+[0021.32] Log: GameType parameter 'ConfigurableGameMode.CGM_Survival'
+[0021.32] Log: LoadPackagesFully 'ConfigurableGameMode.CGM_Survival'
+[0021.32] Log: GameClass Param
+[0021.35] Error: Error, ImportText (Wave): Unknown member Type in: (Setup=0, Number=2, Type=1, Frequency=1)
+[0021.35] Error: Error, ImportText (Wave): Unknown member Type in: (Setup=1, Number=0, Type=0, Frequency=1)
+[0021.35] Error: Error, ImportText (Wave): Unknown member Type in: (Setup=1, Number=1, Type=0, Frequency=1)
+[0021.35] Error: Error, ImportText (Wave): Unknown member Type in: (Setup=1, Number=2, Type=0, Frequency=1)
+[0021.35] Error: Error, ImportText (Wave): Unknown member Type in: (Setup=1, Number=3, Type=0, Frequency=1)
+[0021.35] Error: Error, ImportText (Wave): Unknown member Type in: (Setup=1, Number=4, Type=0, Frequency=1)
+[0021.35] Log: GameClass URL
+[0021.35] Log: PostLoadClass packages LoadPackagesFully
+[0021.35] Log: Game class is 'CGM_Survival'
+[0021.38] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0021.38] Log: Bringing World kf-crazy_playboy_edited.TheWorld up for play (0) at 2026.03.25-06.25.43
+[0021.38] ScriptLog: CGM_Survival.InitGame()
+[0021.38] ScriptLog: Mutators ServerExtMut2026.ServerExtMut,WaveTimeOut.WaveTimeOut
+[0021.64] ScriptLog: [xVotingHandler] Config is up-to-date
+[0021.69] ScriptLog: WaveTimeOut mutator initialized
+[0021.69] ScriptLog: WaveTimeOut: Config Version =  2
+[0021.69] ScriptLog: WaveTimeOut: TimeOutSeconds =  60
+[0021.69] ScriptLog: WaveTimeOut: ApprovalRate =  0.8000
+[0021.69] DevLobby: LobbyJoinGame ServerIP=
+[0021.71] ScriptLog: GameSetups.GenSetup() DisplayMode: 0
+[0021.71] ScriptLog: GameSetups.GenSetup() MaxWave: 100
+[0021.71] ScriptLog: GameSetups.GenSetup() InitialDosh: 2000
+[0021.71] ScriptLog: GameSetups.GenSetup() TraderTime: 20
+[0021.71] ScriptLog: GameSetups.GenSetup() bStartWithTrader: True
+[0021.71] ScriptLog: GameSetups.GenSetup() XpScale: 2.0000
+[0021.71] ScriptLog: GameSetups.GenSetup() DoshScale: 0.5000
+[0021.71] ScriptLog: GameSetups.GenSetup() ExtraSpawnPerWave: 0.0100
+[0021.71] ScriptLog: GameSetups.GenSetup() ExtraSpawnPerPlayer: 0.8000
+[0021.71] ScriptLog: GameSetups.GenSetup() MaxAlive: 60
+[0021.71] ScriptLog: GameSetups.GenSetup() Interval: 5
+[0021.71] ScriptLog: GameSetups.GenSetup() ZedHealthScale: 1.0000
+[0021.71] ScriptLog: GameSetups.GenSetup() ExtraHealthPerWave: 0.0500
+[0021.71] ScriptLog: GameSetups.GenSetup() ExtraHealthPerPlayer: 0.3000
+[0021.71] ScriptLog: GameSetups.GenSetup() MaxHealthScale: 2.0000
+[0021.71] ScriptLog: GameSetups.GenSetup() ZedResistanceScale: 1.0000
+[0021.71] ScriptLog: GameSetups.GenSetup() ExtraResistancePerWave: 0.0000
+[0021.71] ScriptLog: GameSetups.GenSetup() MaxResistanceScale: 10.0000
+[0021.71] ScriptLog: GameSetups.GenSetup() ZedDamageScale: 1.0000
+[0021.71] ScriptLog: GameSetups.GenSetup() ExtraDamagePerWave: 0.0000
+[0021.71] ScriptLog: GameSetups.GenSetup() MaxDamageScale: 10.0000
+[0021.71] ScriptLog: GameSetups.GenSetup() ZedSpeedScale: 1.0000
+[0021.71] ScriptLog: GameSetups.GenSetup() ExtraSpeedPerWave: 0.0000
+[0021.71] ScriptLog: GameSetups.GenSetup() MaxSpeedScale: 5.0000
+[0021.71] ScriptLog: GameSetups.GenSetup() bUseStockScaling: False
+[0021.71] ScriptLog: GameSetups.GenSetup() bEnableBossWaves: False
+[0021.75] Log: REFRESHING GAME CONTENT
+[0021.75] Log: AKFPawn_Monster::PreloadContent - Checking Modes...
+[0021.75] Log: AKFPawn_Monster::PreloadContent - OFFLINE Seasonal Skins mode
+[0021.75] Log: AKFPawn_Monster::PreloadContent - Searching for path: ZED_ARCH.ZED_Clot_UnDev_Archetype
+[0021.75] Log: AKFPawn_Monster::PreloadContent - Checking Modes...
+[0021.75] Log: AKFPawn_Monster::PreloadContent - OFFLINE Seasonal Skins mode
+[0021.75] Log: AKFPawn_Monster::PreloadContent - Searching for path: ZED_ARCH.ZED_Clot_Slasher_Archetype
+[0021.82] Log: AKFPawn_Monster::PreloadContent - Checking Modes...
+[0021.82] Log: AKFPawn_Monster::PreloadContent - OFFLINE Seasonal Skins mode
+[0021.82] Log: AKFPawn_Monster::PreloadContent - Searching for path: ZED_ARCH.ZED_Clot_AlphaKing_Archetype
+[0021.87] Log: AKFPawn_Monster::PreloadContent - Checking Modes...
+[0021.87] Log: AKFPawn_Monster::PreloadContent - OFFLINE Seasonal Skins mode
+[0021.87] Log: AKFPawn_Monster::PreloadContent - Searching for path: ZED_ARCH.ZED_Clot_Alpha_Archetype
+[0021.87] Log: AKFPawn_Monster::PreloadContent - Checking Modes...
+[0021.87] Log: AKFPawn_Monster::PreloadContent - OFFLINE Seasonal Skins mode
+[0021.87] Log: AKFPawn_Monster::PreloadContent - Searching for path: ZED_ARCH.ZED_CrawlerKing_Archetype
+[0021.92] Log: AKFPawn_Monster::PreloadContent - Checking Modes...
+[0021.92] Log: AKFPawn_Monster::PreloadContent - OFFLINE Seasonal Skins mode
+[0021.92] Log: AKFPawn_Monster::PreloadContent - Searching for path: ZED_ARCH.ZED_Crawler_Archetype
+[0021.92] Log: AKFPawn_Monster::PreloadContent - Checking Modes...
+[0021.92] Log: AKFPawn_Monster::PreloadContent - OFFLINE Seasonal Skins mode
+[0021.92] Log: AKFPawn_Monster::PreloadContent - Searching for path: ZED_ARCH.ZED_Gorefast2_Archetype
+[0021.98] Log: AKFPawn_Monster::PreloadContent - Checking Modes...
+[0021.98] Log: AKFPawn_Monster::PreloadContent - OFFLINE Seasonal Skins mode
+[0021.98] Log: AKFPawn_Monster::PreloadContent - Searching for path: ZED_ARCH.ZED_Gorefast_Archetype
+[0022.01] Log: AKFPawn_Monster::PreloadContent - Checking Modes...
+[0022.01] Log: AKFPawn_Monster::PreloadContent - OFFLINE Seasonal Skins mode
+[0022.01] Log: AKFPawn_Monster::PreloadContent - Searching for path: ZED_ARCH.ZED_DAR_EMP_Archetype
+[0022.07] Log: AKFPawn_Monster::PreloadContent - Checking Modes...
+[0022.07] Log: AKFPawn_Monster::PreloadContent - OFFLINE Seasonal Skins mode
+[0022.07] Log: AKFPawn_Monster::PreloadContent - Searching for path: ZED_ARCH.ZED_DAR_Laser_Archetype
+[0022.09] Log: AKFPawn_Monster::PreloadContent - Checking Modes...
+[0022.09] Log: AKFPawn_Monster::PreloadContent - OFFLINE Seasonal Skins mode
+[0022.09] Log: AKFPawn_Monster::PreloadContent - Searching for path: ZED_ARCH.ZED_DAR_Rocket_Archetype
+[0022.10] Log: AKFPawn_Monster::PreloadContent - Checking Modes...
+[0022.10] Log: AKFPawn_Monster::PreloadContent - OFFLINE Seasonal Skins mode
+[0022.10] Log: AKFPawn_Monster::PreloadContent - Searching for path: ZED_ARCH.ZED_Stalker_Archetype
+[0022.16] Log: AKFPawn_Monster::PreloadContent - Checking Modes...
+[0022.16] Log: AKFPawn_Monster::PreloadContent - OFFLINE Seasonal Skins mode
+[0022.16] Log: AKFPawn_Monster::PreloadContent - Searching for path: ZED_ARCH.ZED_Scrake_Archetype
+[0022.23] Log: AKFPawn_Monster::PreloadContent - Checking Modes...
+[0022.23] Log: AKFPawn_Monster::PreloadContent - OFFLINE Seasonal Skins mode
+[0022.23] Log: AKFPawn_Monster::PreloadContent - Searching for path: ZED_ARCH.ZED_Fleshpound_Archetype
+[0022.31] Log: AKFPawn_Monster::PreloadContent - Checking Modes...
+[0022.31] Log: AKFPawn_Monster::PreloadContent - OFFLINE Seasonal Skins mode
+[0022.31] Log: AKFPawn_Monster::PreloadContent - Searching for path: ZED_ARCH.ZED_FleshpoundMini_Archetype
+[0022.33] Log: AKFPawn_Monster::PreloadContent - Checking Modes...
+[0022.33] Log: AKFPawn_Monster::PreloadContent - OFFLINE Seasonal Skins mode
+[0022.33] Log: AKFPawn_Monster::PreloadContent - Searching for path: ZED_ARCH.ZED_Bloat_Archetype
+[0022.40] Log: AKFPawn_Monster::PreloadContent - Checking Modes...
+[0022.40] Log: AKFPawn_Monster::PreloadContent - OFFLINE Seasonal Skins mode
+[0022.40] Log: AKFPawn_Monster::PreloadContent - Searching for path: ZED_ARCH.ZED_Siren_Archetype
+[0022.45] Log: AKFPawn_Monster::PreloadContent - Checking Modes...
+[0022.45] Log: AKFPawn_Monster::PreloadContent - OFFLINE Seasonal Skins mode
+[0022.46] Log: AKFPawn_Monster::PreloadContent - Searching for path: ZED_ARCH.ZED_DAR_EMP_Archetype
+[0022.46] Log: AKFPawn_Monster::PreloadContent - Checking Modes...
+[0022.46] Log: AKFPawn_Monster::PreloadContent - OFFLINE Seasonal Skins mode
+[0022.46] Log: AKFPawn_Monster::PreloadContent - Searching for path: ZED_ARCH.ZED_DAR_Laser_Archetype
+[0022.46] Log: AKFPawn_Monster::PreloadContent - Checking Modes...
+[0022.46] Log: AKFPawn_Monster::PreloadContent - OFFLINE Seasonal Skins mode
+[0022.46] Log: AKFPawn_Monster::PreloadContent - Searching for path: ZED_ARCH.ZED_DAR_Rocket_Archetype
+[0022.46] Log: AKFPawn_Monster::PreloadContent - Checking Modes...
+[0022.46] Log: AKFPawn_Monster::PreloadContent - OFFLINE Seasonal Skins mode
+[0022.46] Log: AKFPawn_Monster::PreloadContent - Searching for path: ZED_ARCH.ZED_Husk_Archetype
+[0022.46] Log: AKFPawn_Monster::PreloadContent - Checking Modes...
+[0022.46] Log: AKFPawn_Monster::PreloadContent - OFFLINE Seasonal Skins mode
+[0022.46] Log: AKFPawn_Monster::PreloadContent - Searching for path: ZED_ARCH.ZED_Clot_AlphaKing_Archetype
+[0022.46] Log: AKFPawn_Monster::PreloadContent - Checking Modes...
+[0022.46] Log: AKFPawn_Monster::PreloadContent - OFFLINE Seasonal Skins mode
+[0022.46] Log: AKFPawn_Monster::PreloadContent - Searching for path: ZED_ARCH.ZED_CrawlerKing_Archetype
+[0022.46] Log: AKFPawn_Monster::PreloadContent - Checking Modes...
+[0022.46] Log: AKFPawn_Monster::PreloadContent - OFFLINE Seasonal Skins mode
+[0022.46] Log: AKFPawn_Monster::PreloadContent - Searching for path: ZED_ARCH.ZED_Gorefast2_Archetype
+[0022.46] Log: AKFPawn_Monster::PreloadContent - Checking Modes...
+[0022.46] Log: AKFPawn_Monster::PreloadContent - OFFLINE Seasonal Skins mode
+[0022.46] Log: AKFPawn_Monster::PreloadContent - Searching for path: ZED_ARCH.ZED_DAR_EMP_Archetype
+[0022.46] Log: AKFPawn_Monster::PreloadContent - Checking Modes...
+[0022.46] Log: AKFPawn_Monster::PreloadContent - OFFLINE Seasonal Skins mode
+[0022.46] Log: AKFPawn_Monster::PreloadContent - Searching for path: ZED_ARCH.ZED_DAR_Laser_Archetype
+[0022.46] Log: AKFPawn_Monster::PreloadContent - Checking Modes...
+[0022.46] Log: AKFPawn_Monster::PreloadContent - OFFLINE Seasonal Skins mode
+[0022.46] Log: AKFPawn_Monster::PreloadContent - Searching for path: ZED_ARCH.ZED_DAR_Rocket_Archetype
+[0022.46] Log: AKFPawn_Monster::PreloadContent - Checking Modes...
+[0022.46] Log: AKFPawn_Monster::PreloadContent - OFFLINE Seasonal Skins mode
+[0022.46] Log: AKFPawn_Monster::PreloadContent - Searching for path: ZED_ARCH.ZED_HansClot_Archetype
+[0022.47] Log: AKFPawn_Monster::PreloadContent - Checking Modes...
+[0022.47] Log: AKFPawn_Monster::PreloadContent - OFFLINE Seasonal Skins mode
+[0022.47] Log: AKFPawn_Monster::PreloadContent - Searching for path: ZED_ARCH.ZED_KingBloatSubspawn_Archetype
+[0022.56] ScriptLog: CGM_Survival.InitSpawnManager()
+[0022.56] ScriptWarning: Accessed array 'CGM_SpawnManager_0.DifficultyWaveSettings' out of bounds (-1/0)
+        CGM_SpawnManager kf-crazy_playboy_edited.TheWorld:PersistentLevel.CGM_Survival_0.CGM_SpawnManager_0
+        Function KFGame.KFAISpawnManager:GetWaveSettings:0043
+[0022.56] ScriptLog: CGM_SpawnManager.Initialize() Loaded Setup: 1
+[0022.56] ScriptLog: RegularWaves.Init() - Setup parameter: 1
+[0022.56] ScriptLog: RegularWaves.Init() - Setup property: 1
+[0022.56] ScriptLog: RegularWaves.SortWaves(): Setup =  1
+[0022.56] ScriptLog: Loaded  1  spawns.
+[0022.56] ScriptLog: RegularWaves.SortWaves() - Total Waves: 1
+[0022.56] ScriptLog: CGM_SpawnManager.Initialize() MaxAlive: 60  Interval: 5
+[0022.56] ScriptLog: CGM_Survival.InitSpawnManager()
+[0022.56] ScriptWarning: Accessed array 'CGM_SpawnManager_1.DifficultyWaveSettings' out of bounds (-1/0)
+        CGM_SpawnManager kf-crazy_playboy_edited.TheWorld:PersistentLevel.CGM_Survival_0.CGM_SpawnManager_1
+        Function KFGame.KFAISpawnManager:GetWaveSettings:0043
+[0022.56] ScriptLog: CGM_SpawnManager.Initialize() Loaded Setup: 1
+[0022.56] ScriptLog: RegularWaves.Init() - Setup parameter: 1
+[0022.56] ScriptLog: RegularWaves.Init() - Setup property: 1
+[0022.56] ScriptLog: RegularWaves.SortWaves(): Setup =  1
+[0022.56] ScriptLog: Loaded  1  spawns.
+[0022.56] ScriptLog: RegularWaves.SortWaves() - Total Waves: 1
+[0022.56] ScriptLog: CGM_SpawnManager.Initialize() MaxAlive: 60  Interval: 5
+[0022.59] ScriptLog: Gameplay events will not be recorded.
+[0022.59] Log: Bringing up level for play took: 1.235225
+[0022.60] ScriptLog: KFGameInfo.SeatPlayer
+[0022.60] ScriptLog: GetSeasonalStateName: No Event
+[0022.60] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0022.60] Warning: Warning, Failed to find object 'Class None.'
+[0022.60] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0022.60] Warning: Warning, Failed to find object 'Class None.'
+[0022.60] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0022.60] Warning: Warning, Failed to find object 'Class None.'
+[0022.60] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0022.60] Warning: Warning, Failed to find object 'Class None.'
+[0022.60] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0022.60] Warning: Warning, Failed to find object 'Class None.'
+[0022.60] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0022.60] Warning: Warning, Failed to find object 'Class None.'
+[0022.60] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0022.60] Warning: Warning, Failed to find object 'Class None.'
+[0022.60] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0022.60] Warning: Warning, Failed to find object 'Class None.'
+[0022.60] Log: FAILED TO INIT Logitech
+[0022.60] Log: Failed to load LightFX.dll.
+[0022.60] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0022.60] Warning: Warning, Failed to find object 'Class None.'
+[0022.60] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0022.60] Warning: Warning, Failed to find object 'Class None.'
+[0022.60] Log: InAKFPerk::LoadPerkData() NewLevel = 0, NewBuild = 0, NewPrestigeLevel = 0
+[0022.60] Log: FVoiceInterfaceVivox::RegisterRemoteTalker 76561198057412927
+[0022.60] Log: FVoiceInterfaceVivox::vivoxLogin(0X110000105CA593F)
+[0022.61] Log: FVoiceInterfaceVivox::StartRemoteVoiceProcessing 76561198057412927
+[0022.61] Log: [Vivox Debug] vivoxLoginState != login_state_logged_in
+[0022.61] Log: [Vivox Debug] lobbyUid is 0
+[0022.61] Log: FVoiceInterfaceVivox::vivoxLogin(0X110000105CA593F)
+[0022.66] Log: FVoiceInterfaceVivox::SetVolume(1.500000)
+[0022.66] Log: FVoiceInterfaceVivox::SetMicVolume(50.000000) rescaled to 47
+[0022.66] ScriptWarning: Accessed array 'ExtPlayerController_0.PerkList' out of bounds (7/1)
+        ExtPlayerController kf-crazy_playboy_edited.TheWorld:PersistentLevel.ExtPlayerController_0
+        Function KFGame.KFPlayerController:CheckCurrentPerkAllowed:008B
+[0022.66] ScriptLog: Failed to check CanShareUserCreatedContent
+[0022.66] ScriptLog: Failed to check CanCommunicateVoice
+[0022.88] Warning: Warning, Failed to load 'Font None.Times New Roman': Failed to find object 'Font None.Times New Roman'
+[0022.89] ScriptLog: ApplyEffect() type= Damage , value= 1000.0000 , progress= 0.0050
+[0022.89] ScriptLog: ApplyEffect() type= Recoil , value= 100.0000 , progress= 0.0100
+[0022.89] ScriptLog: ApplyEffect() type= Rate , value= 1000.0000 , progress= 0.0050
+[0022.89] ScriptLog: ApplyEffect() type= Reload , value= 1000.0000 , progress= 0.0050
+[0022.89] ScriptLog: ApplyEffect() type= Health , value= 150.0000 , progress= 0.0100
+[0022.89] ScriptLog: ApplyEffect() type= Mag , value= 400.0000 , progress= 0.0100
+[0022.89] ScriptLog: ApplyEffect() type= Spare , value= 270.0000 , progress= 0.0100
+[0022.89] ScriptLog: ApplyEffect() type= Armor , value= 150.0000 , progress= 0.0100
+[0022.89] ScriptLog: Ext_PerkBase.ApplyEffect() bActivePerk= False , PlayerOwner.Pawn= None
+[0022.89] ScriptLog: ApplyEffect() type= Damage , value= 1000.0000 , progress= 0.0050
+[0022.89] ScriptLog: ApplyEffect() type= Recoil , value= 100.0000 , progress= 0.0100
+[0022.89] ScriptLog: ApplyEffect() type= Rate , value= 105.0000 , progress= 0.0050
+[0022.89] ScriptLog: ApplyEffect() type= Health , value= 150.0000 , progress= 0.0100
+[0022.89] ScriptLog: ApplyEffect() type= Armor , value= 150.0000 , progress= 0.0100
+[0022.89] ScriptLog: Ext_PerkBase.ApplyEffect() bActivePerk= False , PlayerOwner.Pawn= None
+[0022.89] ScriptLog: ApplyEffect() type= Damage , value= 1000.0000 , progress= 0.0050
+[0022.89] ScriptLog: ApplyEffect() type= Recoil , value= 100.0000 , progress= 0.0100
+[0022.89] ScriptLog: ApplyEffect() type= Spread , value= 100.0000 , progress= 0.0100
+[0022.89] ScriptLog: ApplyEffect() type= Rate , value= 1000.0000 , progress= 0.0050
+[0022.89] ScriptLog: ApplyEffect() type= Reload , value= 1000.0000 , progress= 0.0050
+[0022.89] ScriptLog: ApplyEffect() type= Health , value= 150.0000 , progress= 0.0100
+[0022.89] ScriptLog: ApplyEffect() type= Mag , value= 400.0000 , progress= 0.0100
+[0022.89] ScriptLog: ApplyEffect() type= Spare , value= 500.0000 , progress= 0.0100
+[0022.89] ScriptLog: ApplyEffect() type= Armor , value= 150.0000 , progress= 0.0100
+[0022.89] ScriptLog: Ext_PerkBase.ApplyEffect() bActivePerk= False , PlayerOwner.Pawn= None
+[0022.89] Log: FVoiceInterfaceVivox::StopLocalVoiceProcessing
+[0022.89] Log: FVoiceInterfaceVivox::VivoxMuteLocalMic MUTE
+[0022.89] ScriptWarning: Accessed array 'ExtPlayerController_0.PerkList' out of bounds (7/1)
+        ExtPlayerController kf-crazy_playboy_edited.TheWorld:PersistentLevel.ExtPlayerController_0
+        Function KFGame.KFPlayerController:CheckCurrentPerkAllowed:008B
+[0022.89] ScriptLog: KFGfxMoviePlayer_Manager - WidgetInitialized - WidgetName:  root1
+[0022.89] ScriptLog: open menu:  0
+[0022.89] ScriptLog: Controller Disconnected
+[0022.90] Log: ########### Finished loading level: 1.867314 seconds
+[0022.90] Log: FVoiceInterfaceVivox::SetVolume(1.500000)
+[0022.90] Log: FVoiceInterfaceVivox::SetMicVolume(50.000000) rescaled to 47
+[0022.90] Log: KF2 VERSION: 1150
+[0022.90] Log: Initializing Engine Completed
+[0024.06] Log: >>>>>>>>>>>>>> Initial startup: 24.06s <<<<<<<<<<<<<<<
+[0046.07] Log: heard FOnlineAsyncEventInventoryDefinitionsUpdate
+[0046.24] Log: GSteamFriends->GetFriendCount return 35
+[0046.29] Warning: Warning, Failed to load 'Font None.Times New Roman': Failed to find object 'Font None.Times New Roman'
+[0046.38] Log: OnReadComplete INT StatId=1  Value=6553617
+[0046.38] Log: OnReadComplete INT StatId=2  Value=613
+[0046.38] Log: OnReadComplete INT StatId=10  Value=6553600
+[0046.38] Log: OnReadComplete INT StatId=11  Value=678
+[0046.38] Log: OnReadComplete INT StatId=20  Value=6553613
+[0046.38] Log: OnReadComplete INT StatId=21  Value=618
+[0046.38] Log: OnReadComplete INT StatId=30  Value=6553614
+[0046.38] Log: OnReadComplete INT StatId=31  Value=425
+[0046.38] Log: OnReadComplete INT StatId=40  Value=6553607
+[0046.38] Log: OnReadComplete INT StatId=41  Value=681
+[0046.38] Log: OnReadComplete INT StatId=50  Value=6553602
+[0046.38] Log: OnReadComplete INT StatId=51  Value=421
+[0046.38] Log: OnReadComplete INT StatId=60  Value=6553622
+[0046.38] Log: OnReadComplete INT StatId=61  Value=425
+[0046.38] Log: OnReadComplete INT StatId=70  Value=6553635
+[0046.38] Log: OnReadComplete INT StatId=71  Value=341
+[0046.38] Log: OnReadComplete INT StatId=80  Value=6553614
+[0046.38] Log: OnReadComplete INT StatId=81  Value=614
+[0046.38] Log: OnReadComplete INT StatId=90  Value=6553611
+[0046.38] Log: OnReadComplete INT StatId=91  Value=617
+[0046.38] Log: OnReadComplete INT StatId=200  Value=429654
+[0046.38] Log: OnReadComplete INT StatId=201  Value=5037
+[0046.38] Log: OnReadComplete INT StatId=22  Value=496
+[0046.38] Log: OnReadComplete INT StatId=42  Value=9
+[0046.38] Log: OnReadComplete INT StatId=202  Value=7344
+[0046.38] Log: OnReadComplete INT StatId=203  Value=3880
+[0046.38] Log: OnReadComplete INT StatId=300  Value=-1209597184
+[0046.38] Log: OnReadComplete INT StatId=301  Value=0
+[0046.38] Log: OnReadComplete INT StatId=302  Value=3849
+[0046.38] Log: OnReadComplete INT StatId=303  Value=45265004
+[0046.38] Log: OnReadComplete INT StatId=304  Value=0
+[0046.38] Log: OnReadComplete INT StatId=305  Value=0
+[0046.38] Log: OnReadComplete INT StatId=306  Value=0
+[0046.38] Log: OnReadComplete INT StatId=307  Value=0
+[0046.38] Log: OnReadComplete INT StatId=308  Value=0
+[0046.38] Log: OnReadComplete INT StatId=309  Value=0
+[0046.38] Log: OnReadComplete INT StatId=310  Value=0
+[0046.38] Log: OnReadComplete INT StatId=311  Value=0
+[0046.38] Log: OnReadComplete INT StatId=2000  Value=107
+[0046.38] Log: OnReadComplete INT StatId=2001  Value=541
+[0046.38] Log: OnReadComplete INT StatId=2002  Value=1670
+[0046.38] Log: OnReadComplete INT StatId=2003  Value=8911
+[0046.38] Log: OnReadComplete INT StatId=2004  Value=1662
+[0046.38] Log: OnReadComplete INT StatId=2005  Value=1107
+[0046.38] Log: OnReadComplete INT StatId=2006  Value=513
+[0046.38] Log: OnReadComplete INT StatId=2007  Value=130656
+[0046.38] Log: OnReadComplete INT StatId=3000  Value=334
+[0046.38] Log: OnReadComplete INT StatId=400  Value=30946650
+[0046.38] Log: OnReadComplete INT StatId=401  Value=24982272
+[0046.38] Log: OnReadComplete INT StatId=402  Value=1
+[0046.38] Log: OnReadComplete INT StatId=403  Value=0
+[0046.38] Log: [FSocketWin::Bind] Binding to 216.239.35.12:123
+[0047.38] Error: WriteOnlineStats: SessionHasStats is FALSE
+[0047.38] Log: [UKFOnlineStatsWrite::VerifyDoshVaultCrates] Requesting 49 number of Vault Crates.
+[0047.38] Log: [TWAnalytics::requestInventoryItem] Requesting Item Id: 5313 TotalNumberExpected: 49
+[0047.38] Error: WriteOnlineStats: SessionHasStats is FALSE
+[0047.38] Log: UKFOnlineStatsWrite::CacheWeeklyEventState - RESTART Index: 466
+[0047.38] Log: InAKFPerk::LoadPerkData() NewLevel = 0, NewBuild = 0, NewPrestigeLevel = 0
+[0047.40] ScriptLog: X-VoteWebAdmin ERROR: No WebServer object found!
+[0047.40] Log: FVoiceInterfaceVivox::vivoxLogin(0X110000105CA593F)
+[0047.42] ScriptLog: KFGfxMoviePlayer_Manager - WidgetInitialized - WidgetName:  ButtonPromptWidgetContainer
+[0047.42] ScriptLog: KFGfxMoviePlayer_Manager - WidgetInitialized - WidgetName:  MenuBarWidget
+[0047.42] ScriptLog: KFGfxMoviePlayer_Manager - WidgetInitialized - WidgetName:  PartyWidget
+[0047.42] ScriptLog: KFGfxMoviePlayer_Manager - WidgetInitialized - WidgetName:  BackendStatusIndicatorWidget
+[0047.42] ScriptLog: KFGfxMoviePlayer_Manager - WidgetInitialized - WidgetName:  StartMenu
+[0047.42] ScriptLog: KFGfxMoviePlayer_Manager - WidgetInitialized - WidgetName:  ChatBoxWidget
+[0047.42] ScriptLog: KFGfxMoviePlayer_Manager - WidgetInitialized - WidgetName:  Notification
+[0047.43] ScriptLog: label LatestUpdate
+[0047.43] ScriptLog: imageURL img://UI_WhatsNew.UI_WhatsNew_KF3
+[0047.43] ScriptLog: redirectURL https://killingfloor3.com/
+[0047.43] ScriptLog: label FeaturedItemBundle
+[0047.43] ScriptLog: imageURL img://UI_WhatsNew.UI_WhatsNew_Summer2022_UltimateEdition_Upgrade
+[0047.43] ScriptLog: redirectURL https://store.steampowered.com/app/1914560/KF2__Ultimate_Edition_Upgrade_DLC/
+[0047.43] ScriptLog: label FeaturedItemBundle
+[0047.43] ScriptLog: imageURL img://UI_WhatsNew.UI_WhatsNew_Summer2023_CosmeticsSeasonPass
+[0047.43] ScriptLog: redirectURL https://store.steampowered.com/app/2363410/Killing_Floor_2__Cosmetics_Season_Pass
+[0047.43] ScriptLog: label ArmorySeasonPass
+[0047.43] ScriptLog: imageURL img://UI_WhatsNew.UI_WhatsNew_Summer2022_ArmorySeasonPassII
+[0047.43] ScriptLog: redirectURL https://store.steampowered.com/app/1914490/KF2__Season_Pass_2022
+[0047.43] ScriptLog: label ArmorySeasonPass
+[0047.43] ScriptLog: imageURL img://UI_WhatsNew.UI_WhatsNew_Spring_Armory_Season_Pass
+[0047.43] ScriptLog: redirectURL https://store.steampowered.com/app/1524820/Killing_Floor_2__Armory_Season_Pass
+[0047.43] ScriptLog: label FeaturedItemBundle
+[0047.43] ScriptLog: imageURL img://UI_WhatsNew.UI_WhatsNew_SS_Steampunk_MrsFosterBundle
+[0047.43] ScriptLog: redirectURL https://store.steampowered.com/buyitem/232090/6185
+[0047.43] ScriptLog: label FeaturedItemBundle
+[0047.43] ScriptLog: imageURL img://UI_WhatsNew.UI_WhatsNew_Fall_ReaperOutfit
+[0047.43] ScriptLog: redirectURL https://store.steampowered.com/buyitem/232090/8462
+[0047.43] ScriptLog: label FeaturedEventItem
+[0047.43] ScriptLog: imageURL img://UI_WhatsNew.UI_WhatsNew_Halloween2023_LastStand_Uniforms
+[0047.43] ScriptLog: redirectURL https://store.steampowered.com/buyitem/232090/9747
+[0047.43] ScriptLog: label FeaturedItemBundle
+[0047.43] ScriptLog: imageURL img://UI_WhatsNew.UI_WhatsNew_Halloween_CommandoChicken_Bundle
+[0047.43] ScriptLog: redirectURL https://store.steampowered.com/buyitem/232090/5286
+[0047.43] ScriptLog: label FeaturedItemBundle
+[0047.43] ScriptLog: imageURL img://UI_WhatsNew.UI_WhatsNew_Xmas_BadSanta
+[0047.43] ScriptLog: redirectURL https://store.steampowered.com/buyitem/232090/6670
+[0047.43] ScriptLog: label FeaturedItemBundle
+[0047.43] ScriptLog: imageURL img://UI_WhatsNew.UI_WhatsNew_Halloween2023_MG3Shredder
+[0047.43] ScriptLog: redirectURL https://store.steampowered.com/buyitem/232090/9749
+[0047.43] ScriptLog: label FeaturedItemBundle
+[0047.43] ScriptLog: imageURL img://UI_WhatsNew.UI_WhatsNew_Summer2023_S12Shockgun
+[0047.43] ScriptLog: redirectURL https://store.steampowered.com/buyitem/232090/9655
+[0047.43] ScriptLog: label Jaegorhorn
+[0047.43] ScriptLog: imageURL img://UI_WhatsNew.UI_WhatsNew_CommunityHub
+[0047.43] ScriptLog: redirectURL https://steamcommunity.com/app/232090
+[0047.43] ScriptLog: label Forums
+[0047.43] ScriptLog: imageURL img://UI_WhatsNew.UI_WhatsNew_CommunityForums
+[0047.43] ScriptLog: redirectURL http://forums.tripwireinteractive.com/
+[0047.43] ScriptLog: label Survey
+[0047.43] ScriptLog: imageURL img://UI_WhatsNew.UI_WhatsNew_Survey
+[0047.43] ScriptLog: redirectURL http://www.tripwireinteractive.com/redirect/KF2Survey/
+[0047.43] ScriptLog: label CommunityTracker
+[0047.43] ScriptLog: imageURL img://UI_WhatsNew.UI_WhatsNew_CommunityIssue
+[0047.43] ScriptLog: redirectURL http://www.killingfloor2.com/roadmap
+[0047.43] ScriptLog: label Merch
+[0047.43] ScriptLog: imageURL img://UI_WhatsNew.UI_WhatsNew_Merch
+[0047.43] ScriptLog: redirectURL http://www.tripwireinteractive.com/redirect/shop/
+[0047.43] ScriptLog: label Uncovered
+[0047.43] ScriptLog: imageURL img://UI_WhatsNew_PS4.UI_WhatsNew_KFUncovered
+[0047.43] ScriptLog: redirectURL https://www.youtube.com/watch?v=fTdfedt9B48/
+[0047.43] ScriptLog: WI:  WorldInfo_0
+[0047.43] ScriptLog: WI.NetMode:  NM_Standalone
+[0047.50] Warning: Warning, Failed to load 'Font None.Times New Roman': Failed to find object 'Font None.Times New Roman'
+[0047.51] ScriptWarning: Accessed None 'PlayerOwner'
+        ExtPerkManager kf-crazy_playboy_edited.TheWorld:PersistentLevel.ExtPerkManager_1
+        Function ServerExt2026.ExtPerkManager:InitPerks:0095
+[0047.51] Log: RetryCharacterOwnership -- inventory is now ready
+ * evt_account_login_state_change: .tripwirein-ki04.0X110000105CA593F. login_state_logging_in
+
+ * evt_account_login_state_change: .tripwirein-ki04.0X110000105CA593F. login_state_logged_in
+
+[0152.96] Warning: Warning, Failed to load 'Font None.KFMerged Regular': Failed to find object 'Font None.KFMerged Regular'
+[0169.91] ScriptLog: open menu:  1
+[0169.92] ScriptWarning: Accessed None 'B_Prestige'
+        UIP_PerkSelectionLobby Transient.ExtGUI_PerkSelectionPage_0:KFGUI_SwitchMenuBar_0.UIP_PerkSelectionLobby_1
+        Function ServerExt2026.UIP_PerkSelection:InitMenu:0136
+[0169.92] ScriptWarning: Attempt to assign variable through None
+        UIP_PerkSelectionLobby Transient.ExtGUI_PerkSelectionPage_0:KFGUI_SwitchMenuBar_0.UIP_PerkSelectionLobby_1
+        Function ServerExt2026.UIP_PerkSelection:InitMenu:014A
+[0169.92] ScriptWarning: Accessed None 'B_Prestige'
+        UIP_PerkSelectionLobby Transient.ExtGUI_PerkSelectionPage_0:KFGUI_SwitchMenuBar_0.UIP_PerkSelectionLobby_1
+        Function ServerExt2026.UIP_PerkSelection:InitMenu:015E
+[0169.92] ScriptWarning: Attempt to assign variable through None
+        UIP_PerkSelectionLobby Transient.ExtGUI_PerkSelectionPage_0:KFGUI_SwitchMenuBar_0.UIP_PerkSelectionLobby_1
+        Function ServerExt2026.UIP_PerkSelection:InitMenu:0172
+[0169.92] ScriptWarning: Accessed None 'B_Unload'
+        UIP_PerkSelectionLobby Transient.ExtGUI_PerkSelectionPage_0:KFGUI_SwitchMenuBar_0.UIP_PerkSelectionLobby_1
+        Function ServerExt2026.UIP_PerkSelection:InitMenu:0180
+[0169.92] ScriptWarning: Attempt to assign variable through None
+        UIP_PerkSelectionLobby Transient.ExtGUI_PerkSelectionPage_0:KFGUI_SwitchMenuBar_0.UIP_PerkSelectionLobby_1
+        Function ServerExt2026.UIP_PerkSelection:InitMenu:0194
+[0169.92] ScriptWarning: Accessed None 'B_Unload'
+        UIP_PerkSelectionLobby Transient.ExtGUI_PerkSelectionPage_0:KFGUI_SwitchMenuBar_0.UIP_PerkSelectionLobby_1
+        Function ServerExt2026.UIP_PerkSelection:InitMenu:01A8
+[0169.92] ScriptWarning: Attempt to assign variable through None
+        UIP_PerkSelectionLobby Transient.ExtGUI_PerkSelectionPage_0:KFGUI_SwitchMenuBar_0.UIP_PerkSelectionLobby_1
+        Function ServerExt2026.UIP_PerkSelection:InitMenu:01BC
+[0169.92] ScriptWarning: Accessed None 'B_Reset'
+        UIP_PerkSelectionLobby Transient.ExtGUI_PerkSelectionPage_0:KFGUI_SwitchMenuBar_0.UIP_PerkSelectionLobby_1
+        Function ServerExt2026.UIP_PerkSelection:InitMenu:01D0
+[0169.92] ScriptWarning: Attempt to assign variable through None
+        UIP_PerkSelectionLobby Transient.ExtGUI_PerkSelectionPage_0:KFGUI_SwitchMenuBar_0.UIP_PerkSelectionLobby_1
+        Function ServerExt2026.UIP_PerkSelection:InitMenu:01E4
+[0169.92] ScriptWarning: Accessed None 'B_Reset'
+        UIP_PerkSelectionLobby Transient.ExtGUI_PerkSelectionPage_0:KFGUI_SwitchMenuBar_0.UIP_PerkSelectionLobby_1
+        Function ServerExt2026.UIP_PerkSelection:InitMenu:01F8
+[0169.92] ScriptWarning: Attempt to assign variable through None
+        UIP_PerkSelectionLobby Transient.ExtGUI_PerkSelectionPage_0:KFGUI_SwitchMenuBar_0.UIP_PerkSelectionLobby_1
+        Function ServerExt2026.UIP_PerkSelection:InitMenu:020C
+[0169.92] ScriptWarning: Accessed None 'PerksMenu'
+        ExtMoviePlayer_Manager kf-crazy_playboy_edited.TheWorld:PersistentLevel.ExtPlayerController_0.ExtMoviePlayer_Manager_0
+        Function ServerExt2026.ExtMoviePlayer_Manager:OpenMenu:00BC
+[0169.96] ScriptLog: KFGfxMoviePlayer_Manager - WidgetInitialized - WidgetName:  PerksMenu
+[0169.96] ScriptWarning: Accessed None 'SelectionContainer'
+        ExtMenu_Perks kf-crazy_playboy_edited.TheWorld:PersistentLevel.ExtPlayerController_0.ExtMoviePlayer_Manager_0.ExtMenu_Perks_0
+        Function KFGame.KFGFxMenu_Perks:WidgetInitialized:010A
+[0169.96] ScriptWarning: Accessed None 'SkillsContainer'
+        ExtMenu_Perks kf-crazy_playboy_edited.TheWorld:PersistentLevel.ExtPlayerController_0.ExtMoviePlayer_Manager_0.ExtMenu_Perks_0
+        Function KFGame.KFGFxMenu_Perks:WidgetInitialized:021A
+[0169.96] ScriptWarning: Accessed None 'SkillsContainer'
+        ExtMenu_Perks kf-crazy_playboy_edited.TheWorld:PersistentLevel.ExtPlayerController_0.ExtMoviePlayer_Manager_0.ExtMenu_Perks_0
+        Function KFGame.KFGFxMenu_Perks:WidgetInitialized:023A
+[0169.96] ScriptWarning: Accessed None 'PrestigeContainer'
+        ExtMenu_Perks kf-crazy_playboy_edited.TheWorld:PersistentLevel.ExtPlayerController_0.ExtMoviePlayer_Manager_0.ExtMenu_Perks_0
+        Function KFGame.KFGFxMenu_Perks:WidgetInitialized:02A5
+[0171.44] ScriptWarning: Accessed None 'SelectionContainer'
+        ExtMenu_Perks kf-crazy_playboy_edited.TheWorld:PersistentLevel.ExtPlayerController_0.ExtMoviePlayer_Manager_0.ExtMenu_Perks_0
+        Function KFGame.KFGFxObject_Menu:Callback_ReadyClicked:04B7
+[0175.96] ScriptLog: (ExtMoviePlayer_Manager_0) KFGfxMoviePlayer_Manager::None:CloseMenus PartyWidget:'ExtWidget_PartyInGame_0' bAfterLobby:'False' bForceClose:'False'
+[0175.96] ScriptLog: Setting PartyWidget Visibility false, bAfterLobby = true
+[0175.96] ScriptLog: (ExtMoviePlayer_Manager_0) KFGfxMoviePlayer_Manager::None:CloseMenus CurrentMenu:'ExtMenu_Perks_0'
+[0175.96] ScriptLog: (ExtMoviePlayer_Manager_0) KFGfxMoviePlayer_Manager::None:CloseMenus PartyWidget:'ExtWidget_PartyInGame_0' bAfterLobby:'True' bForceClose:'True'
+[0175.97] Warning: SpawnActor failed because class KFWeap_Random is abstract
+[0175.97] ScriptWarning: InventoryManager::CreateInventory - Couldn't spawn inventory KFWeap_Random
+        ExtInventoryManager kf-crazy_playboy_edited.TheWorld:PersistentLevel.ExtInventoryManager_0
+        Function Engine.InventoryManager:CreateInventory:0138
+[0175.97] ScriptLog: Ext_TraitArmorReg.ApplyEffectOn() Player= ExtHumanPawn_0 , Perk= Ext_PerkSurvivalist_0 , Level= 3
+[0175.97] Error: Can't start an online game that hasn't been created
+[0175.97] ScriptLog: CGM_SpawnManager.GetSpawnList(): NextWaveIndex =  0  Interval =  5
+[0175.97] ScriptLog: RegularWaves.GetWaveCount() WaveCount =  1
+[0175.97] ScriptLog: CGM_SpawnManager.GetSpawnList() - Regular Wave
+[0175.97] ScriptLog: RegularWaves.GetSpawnList() - Getting spawns for Wave: 0  PlayerNum: 1
+[0175.97] ScriptLog: RegularWaves.GetSpawnList() - Wave: 0  PlayerNum: 1  SpawnCount: 3
+[0175.97] ScriptLog: CGM_SpawnManager.SetupNextWave() - WaveTotalAI = 3
+[0175.97] ScriptLog: (ExtMoviePlayer_Manager_0) KFGfxMoviePlayer_Manager::None:CloseMenus PartyWidget:'ExtWidget_PartyInGame_0' bAfterLobby:'True' bForceClose:'True'
+[0176.15] ScriptLog: Ext_PerkBase.ModifyArmor() Modifiers[14] =  150.0000
+[0176.15] ScriptLog: Ext_PerkBase.ModifyArmor() MaxArmor =  250
+[0176.15] ScriptLog: ExtPerkManager.ModifyArmorInt() MaxArmorInt= 250
+[0176.36] ScriptLog: (ExtMenu_Perks_0) KFGFxObject_Menu::None:Callback_MenusFinishedClosing Manager.bMenusOpen:'True'
+[0176.96] ScriptLog: CGM_SpawnManager.Update() - Spawning  3  Zeds
+[0176.96] Warning: Warning, Missing preloaded content for CGM_ZedPatriarch_0. Falling back to spawn time load.
+[0176.96] Log: AKFPawn_Monster::PreloadContent - Checking Modes...
+[0176.96] Log: AKFPawn_Monster::PreloadContent - OFFLINE Seasonal Skins mode
+[0176.96] Log: AKFPawn_Monster::PreloadContent - Searching for path: ZED_ARCH.ZED_Patriarch_Archetype
+[0177.06] ScriptWarning: Accessed array 'CGM_ZedPatriarch_0.Skins' out of bounds (0/0)
+        CGM_ZedPatriarch kf-crazy_playboy_edited.TheWorld:PersistentLevel.CGM_ZedPatriarch_0
+        Function kfgamecontent.KFPawn_ZedPatriarch:SetCharacterArch:01F2
+[0177.06] ScriptWarning: Accessed array 'CGM_ZedPatriarch_0.Skins' out of bounds (1/0)
+        CGM_ZedPatriarch kf-crazy_playboy_edited.TheWorld:PersistentLevel.CGM_ZedPatriarch_0
+        Function kfgamecontent.KFPawn_ZedPatriarch:SetCharacterArch:0254
+[0177.06] ScriptLog: CGM_Survival.SetMonsterDefaults() - Using custom difficulty scaling
+[0177.06] ScriptLog: CGM_Survival.SetMonsterDefaults() Before - P.Health:  3750  P.GroundSpeed:  260.0000  P.SprintSpeed:  650.0000  P.DifficultyDamageMod:  1.0000
+[0177.06] ScriptLog: CGM_Survival.SetMonsterDefaults() After - P.Health:  2756  P.GroundSpeed:  260.0000  P.SprintSpeed:  650.0000  P.DifficultyDamageMod:  1.0000
+[0177.06] ScriptWarning: 130.0035 KFSpecialMoveHandler_2 DoSpecialMove cannot do requested special move SM_BossTheatrics
+        KFSpecialMoveHandler kf-crazy_playboy_edited.TheWorld:PersistentLevel.CGM_ZedPatriarch_0.KFSpecialMoveHandler_2
+        Function KFGame.KFSpecialMoveHandler:DoSpecialMove:04D0
+[0177.06] ScriptWarning: Accessed array 'CGM_ZedPatriarch_1.Skins' out of bounds (0/0)
+        CGM_ZedPatriarch kf-crazy_playboy_edited.TheWorld:PersistentLevel.CGM_ZedPatriarch_1
+        Function kfgamecontent.KFPawn_ZedPatriarch:SetCharacterArch:01F2
+[0177.06] ScriptWarning: Accessed array 'CGM_ZedPatriarch_1.Skins' out of bounds (1/0)
+        CGM_ZedPatriarch kf-crazy_playboy_edited.TheWorld:PersistentLevel.CGM_ZedPatriarch_1
+        Function kfgamecontent.KFPawn_ZedPatriarch:SetCharacterArch:0254
+[0177.06] ScriptLog: CGM_Survival.SetMonsterDefaults() - Using custom difficulty scaling
+[0177.06] ScriptLog: CGM_Survival.SetMonsterDefaults() Before - P.Health:  3750  P.GroundSpeed:  260.0000  P.SprintSpeed:  650.0000  P.DifficultyDamageMod:  1.0000
+[0177.07] ScriptLog: CGM_Survival.SetMonsterDefaults() After - P.Health:  2756  P.GroundSpeed:  260.0000  P.SprintSpeed:  650.0000  P.DifficultyDamageMod:  1.0000
+[0177.07] ScriptWarning: 130.0035 KFSpecialMoveHandler_3 DoSpecialMove cannot do requested special move SM_BossTheatrics
+        KFSpecialMoveHandler kf-crazy_playboy_edited.TheWorld:PersistentLevel.CGM_ZedPatriarch_1.KFSpecialMoveHandler_3
+        Function KFGame.KFSpecialMoveHandler:DoSpecialMove:04D0
+[0177.07] ScriptWarning: Accessed array 'CGM_ZedPatriarch_2.Skins' out of bounds (0/0)
+        CGM_ZedPatriarch kf-crazy_playboy_edited.TheWorld:PersistentLevel.CGM_ZedPatriarch_2
+        Function kfgamecontent.KFPawn_ZedPatriarch:SetCharacterArch:01F2
+[0177.07] ScriptWarning: Accessed array 'CGM_ZedPatriarch_2.Skins' out of bounds (1/0)
+        CGM_ZedPatriarch kf-crazy_playboy_edited.TheWorld:PersistentLevel.CGM_ZedPatriarch_2
+        Function kfgamecontent.KFPawn_ZedPatriarch:SetCharacterArch:0254
+[0177.07] ScriptLog: CGM_Survival.SetMonsterDefaults() - Using custom difficulty scaling
+[0177.07] ScriptLog: CGM_Survival.SetMonsterDefaults() Before - P.Health:  3750  P.GroundSpeed:  260.0000  P.SprintSpeed:  650.0000  P.DifficultyDamageMod:  1.0000
+[0177.07] ScriptLog: CGM_Survival.SetMonsterDefaults() After - P.Health:  2756  P.GroundSpeed:  260.0000  P.SprintSpeed:  650.0000  P.DifficultyDamageMod:  1.0000
+[0177.07] ScriptWarning: 130.0035 KFSpecialMoveHandler_4 DoSpecialMove cannot do requested special move SM_BossTheatrics
+        KFSpecialMoveHandler kf-crazy_playboy_edited.TheWorld:PersistentLevel.CGM_ZedPatriarch_2.KFSpecialMoveHandler_4
+        Function KFGame.KFSpecialMoveHandler:DoSpecialMove:04D0
+[0177.07] ScriptLog: CGM_SpawnManager.Update() - SpawnedCount =  3
+[0177.29] ScriptLog: UI_MidGameMenu instance path: Transient.UI_MidGameMenu_0
+[0177.29] ScriptLog: UI_MidGameMenu class path: ServerExt2026.UI_MidGameMenu
+[0177.30] ScriptLog: UI_MidGameMenu class outer: ServerExt2026
+[0177.30] ScriptLog: UI_MidGameMenu localized MapVoteButtonText: []
+[0177.30] ScriptLog: UI_MidGameMenu default MapVoteButtonText: []
+[0177.30] ScriptLog: Localize ServerExt2026: [?INT?ServerExt2026.UI_MidGameMenu.MapVoteButtonText?]
+[0177.30] ScriptLog: Localize ServerExt: [Map Vote]
+[0177.30] ScriptLog: UI_MidGameMenu: Adding Mapvote button with text:
+[0178.97] Log: Closing by request
+[0178.97] Log: appRequestExit(0)
+[0178.99] ScriptLog: (ExtMoviePlayer_Manager_0) KFGfxMoviePlayer_Manager::None:CloseMenus PartyWidget:'ExtWidget_PartyInGame_0' bAfterLobby:'True' bForceClose:'False'
+[0179.13] Log: FVoiceInterfaceVivox::NotifyCleanupWorld. bSessionEnded = TRUE
+[0179.13] Exit: Preparing to exit.
+[0180.23] Exit: Game engine shut down
+[0180.31] Log: [ThreadAffinity] Number of hardware threads is 16. Setting thread affinity for game and render threads to share L2 cache
+[0180.57] Exit: Windows client shut down
+[0180.57] Exit: XAudio2 Device shut down.
+[0180.59] Exit: AK Audio shut down.
+s

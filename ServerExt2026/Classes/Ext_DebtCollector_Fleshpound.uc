@@ -1,0 +1,2 @@
+class Ext_DebtCollector_Fleshpound extends KFPawn_ZedFleshpound;
+
